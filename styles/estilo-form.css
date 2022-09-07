@@ -1,0 +1,172 @@
+/*GERAL*/
+::-webkit-scrollbar{
+    width: 13px;
+}
+
+::-webkit-scrollbar-thumb{
+    width: 13px;
+    background-color:#1DB954;
+}
+
+html{
+    height: 100%;
+    overflow-x: hidden;
+}
+
+
+body{
+
+    height: 100%;
+
+    font-family:Helvetica,  Arial,  sans-serif;
+
+}
+
+/*Header*/
+
+.caixa-geral-form {
+    padding-top: 0px;
+    padding-bottom: 75px;
+}
+
+.caixa-geral-form .logo-black{
+    margin: 40px 170px;
+}
+
+.caixa-geral-form h2{
+    margin-bottom: 15px;
+}
+
+.caixa-header{
+    width:  500px;
+}
+
+.caixa-header h2{
+    text-align: center;
+    letter-spacing: -0.04em;
+    color: black;
+    font-weight: 600;
+}
+
+.caixa-header p{   
+    text-align: center;
+    font-size: 1.2em;
+    letter-spacing: -0.04em;
+    color: rgba(105, 105, 105, 0.787);
+    border-bottom: 1px solid rgb(204,204,204);
+}
+
+.caixa-header span::before{
+    border-top: 1px solid rgb(204, green,204, 204);
+    content: "";
+    display: table-cell;
+    position: relative;
+    top: 0.8em;
+    width: 42%;
+}
+
+
+.btn-custom{
+    width: 75%;
+    border-radius: 100px;
+    margin: 20px 65px;
+}
+
+.btn-custom img{
+    margin-bottom: 6px;
+    margin-right: 10px;
+}
+
+.btn-custom:hover{
+    transform: scale(1.05);
+    color: white;
+}
+
+.btn-face{
+   background-color:  #384F81;
+   color: white;
+   font-weight: 600;
+   transition: 0.4s;
+}
+
+.btn-face img{
+    margin-bottom: 6px;
+    margin-right: 10px;
+}
+
+.btn-google{
+    border: 2px solid black;
+    transition: 0.4s;
+}
+
+.btn-google:hover{
+    color: black;
+}
+
+
+/*Formulário*/
+
+
+.form-group .form-control{
+    height: 50px;
+}
+
+.form-group label{
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.form-group{
+    margin-bottom: 25px;
+}
+
+.form-check{
+    padding-top: 0px;
+}
+
+.confirmacoes{
+    margin-bottom: 20px;
+}
+
+
+.form-check .input-radio-form{
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.form-check .input-radio-form label{
+    font-weight: normal;
+}
+
+.form-check .input-radio-form input:checked{
+    background-color: #1DB954;
+}
+
+
+.btn-subs{
+    background: #1ED760;
+    width: 50%;
+    padding: 15px 0;
+    color: black;
+    margin:20px 110px 0px 120px;
+    font-weight: 600;
+    transition: 0.4s;
+}
+
+.btn-subs:hover{
+    transform: scale(1.12);
+    color: black;
+}
+
+form .p-final{
+    margin-top: 20px;
+    font-size: 18px;
+    border: none;
+}
+
+
+
+
+
+
+

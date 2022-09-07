@@ -1,0 +1,192 @@
+/*GERAL*/
+::-webkit-scrollbar{
+    width: 13px;
+}
+
+::-webkit-scrollbar-thumb{
+    width: 13px;
+    background-color:#1DB954;
+}
+
+html{
+    height: 100%;
+    overflow-x: hidden;
+}
+
+
+body{
+
+    height: 100%;
+
+    font-family:Helvetica,  Arial,  sans-serif;
+
+}
+
+/*Header*/
+
+.caixa-geral-form {
+    padding-top: 0px;
+    padding-bottom: 75px;
+}
+
+.caixa-geral-form .logo-black{
+    margin: 40px 170px;
+}
+
+.caixa-geral-form h2{
+    margin-top: 10px ;
+    margin-bottom: 15px;
+}
+
+.caixa-header{
+    width:  500px;
+}
+
+.caixa-header h2{
+    text-align: center;
+    letter-spacing: -0.04em;
+    color: black;
+    font-weight: 600;
+}
+
+.caixa-header p{   
+    text-align: center;
+    font-size: 1.2em;
+    letter-spacing: -0.04em;
+    color: rgba(105, 105, 105, 0.787);
+    border-bottom: 1px solid rgb(204,204,204);
+}
+
+.caixa-header span::before{
+    border-top: 1px solid rgb(204, green,204, 204);
+    content: "";
+    display: table-cell;
+    position: relative;
+    top: 0.8em;
+    width: 42%;
+}
+
+
+.btn-custom{
+    width: 75%;
+    border-radius: 100px;
+    margin: 10px 65px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.btn-custom img{
+    margin-bottom: 6px;
+    margin-right: 10px;
+}
+
+.btn-custom:hover{
+    transform: scale(1.05);
+    color: white;
+}
+
+.btn-face{
+   background-color:  #384F81;
+   color: white;
+   font-weight: 600;
+   transition: 0.4s;
+}
+
+.btn-face img{
+    margin-bottom: 6px;
+    margin-right: 10px;
+}
+
+.btn-google{
+    border: 1px solid rgba(0, 0, 0, 0.724);
+    transition: 0.4s;
+    font-weight: 600;
+}
+
+.btn-google:hover{
+    color: black;
+}
+
+.btn-apple{
+    background-color:  #000;
+    color: white;
+    font-weight: 600;
+    transition: 0.4s;
+ }
+
+.btn-num{
+    color: rgb(138, 138, 138);
+    border: 1px solid rgba(0, 0, 0, 0.724);
+    transition: 0.4s;
+    font-weight: 600;
+}
+
+.btn-num:hover{
+    color: rgb(138, 138, 138);
+}
+
+
+/*Formulário*/
+
+
+.form-group .form-control{
+    height: 50px;
+}
+
+.form-group label{
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.form-group{
+    margin-bottom: 25px;
+}
+
+.form-check{
+    padding-top: 0px;
+}
+
+.confirmacoes{
+    margin-bottom: 0px;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+.form-group .link-esq{
+    color: black;
+
+}
+
+.btn-subs{
+    background: #1ED760;
+    padding: 15px 30px;
+    color: black;
+    font-weight: 800;
+    font-size: 13px;
+    transition: 0.4s;
+    letter-spacing: 1px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.btn-subs:hover{
+    transform: scale(1.12);
+    color: black;
+}
+
+form .row{
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(138, 138, 138, 0.568);
+}
+
+.caixa-header form h2{
+    margin-top: 35px;
+    font-size: 19px;
+}
+
+
+
+
+
+
+

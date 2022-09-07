@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <title>Login - Spotify</title>
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!--Estilo Customizado-->
+    <link rel="stylesheet" href="styles/estilo-login.css">
+
+    <!--Icone-->
+    <link rel="icon" href="imagens/favicon.png">
+
+</head>
+<body>
+
+    <div class="container d-flex caixa-geral-form">
+        <div class="align-items-center m-auto">
+            <div class="align-items-center caixa-header">
+                <img class="logo-black" width="120" src="imagens/spotifyblack.svg" alt="">
+
+                <h2>Para continuar, faça login no Spotify.</h2>
+
+
+                <button class="btn btn-lg btn-face btn-custom"> <img width="19px" src="imagens/facebook-btn.png" alt=""> Continuar com o facebook</button>
+
+                <button class="btn btn-lg btn-google btn-custom"> <img width="19px" src="imagens/google.png" alt=""> Continuar com o Google</button>
+
+                <button class="btn btn-lg btn-apple btn-custom"> <img width="19px" src="imagens/apple-logo.png" alt=""> Continuar com a apple</button>
+
+
+                <button class="btn btn-lg btn-num btn-custom"> Continuar com um número de telefone</button>
+
+                <p>ou</p>
+
+
+                <form><!--Inicio Formulario-->
+
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Endereço de e-mail ou nome de usuário</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Endereço de e-mail ou nome de usuário">
+                        <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Senha</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+                    </div>
+
+                    <div class="form-group">
+                        <a class="link-esq" href="">Esqueceu sua senha?</a>
+                    </div>
+
+
+
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="form-check confirmacoes">
+                                <input type="checkbox" class="form-check-input">
+                                <label class="form-check-label">Lembrar de mim</label>
+                            </div>
+                        </div>
+
+
+                        <div class="col-6">
+                            <button class="btn btn-lg btn-custom btn-subs">Entrar</button>
+                        </div>
+                    </div>
+
+                    <h2>Não tem uma conta?</h2>
+                    
+                    <button class="btn btn-lg btn-num btn-custom"> <a style="text-decoration: none; color:rgba(79, 79, 79, 0.769);" href="inscreverse.html">Inscrever-se no Spotify</a></button> 
+
+                </form><!--Fim Formulario-->
+                  
+
+            </div>           
+                
+
+        </div>
+    </div><!--fim caixa-geral-->
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
